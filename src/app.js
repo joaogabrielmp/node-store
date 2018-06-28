@@ -9,7 +9,7 @@ const app = express();
 const router = express.Router();
 
 // Conecta ao banco
-// mongoose.connect('mongodb://jgmp:jgmp@ds062448.mlab.com:62448/node-test');
+// mongoose.connect('');
 
 mongoose.Promise = global.Promise;
 var promise = mongoose.connect(config.connectionString, {
